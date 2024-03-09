@@ -1,0 +1,15 @@
+#trashContent{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 48px;
+}
+#trashHeadline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+}

@@ -1,0 +1,52 @@
+/* MEDIA QUERY 720px */
+@media (max-width: 720px) {
+    .overlay-menu{
+        transform: translateX(-270%);
+        width: 10%;
+        
+    }
+    .show-overlay-menu{
+        transform: translateX(0%);
+    }
+    .newNoteInput .input {
+        width: 50%;
+    }
+
+    .newNoteInput textArea {
+        width: 50%;
+    }
+    #contentNotes .note{
+        width: 30%;
+    }
+    #trashContent .note{
+        width: 30%;
+    }
+    .overlay-menu .navLink span {
+        display: none;
+    }
+}
+
+/* MEDIA QUERY 480px */
+@media (max-width: 480px) {
+    .newNoteInput .input {
+        width: 70%;
+    }
+    .newNoteInput textArea {
+        width: 70%;
+    }
+    #contentNotes .note{
+        width: 70%;
+    }
+    #content h1{
+        font-size: 18px;
+    }
+    header h1{
+        display: none;
+    }
+    footer a{
+        font-size: 14px;
+    }
+    #trashContent .note{
+       width: 70%;
+    }
+}

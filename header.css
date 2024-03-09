@@ -1,0 +1,74 @@
+/* HEADER STYLE */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.5); 
+}
+header h1{
+    text-align: center;
+    margin-left: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.menu:hover{
+    background-color: whitesmoke;
+}
+.logo{
+    margin-left: 88px;
+}
+.user{
+    margin-right: 16px;
+    cursor: pointer;
+}
+.overlay-menu{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    left: 16px;
+    top: 112px;
+    z-index: 2;
+    gap: 16px;
+    transform: translateX(-105%);
+    transition: all 225ms ease-in-out;
+}
+.show-overlay-menu{
+    transform: translateX(0%);
+}
+.icon{
+    left: 16px;
+    border-radius: 16px;
+}
+.navLink:hover{
+    background-color: whitesmoke;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.navLink{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

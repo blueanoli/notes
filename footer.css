@@ -1,0 +1,23 @@
+/* FOOTER STYLE */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 48px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
